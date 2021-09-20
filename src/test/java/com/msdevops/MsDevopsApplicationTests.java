@@ -16,7 +16,7 @@ class MsDevopsApplicationTests {
     @Test
     public void testGetBookingCtl() {
         String mock = null;
-        String result = underTest.getBookingDetails();
+        String result = underTest.getBookingDetails("sdf");
         Assertions.assertEquals(result, mock);
     }
 
